@@ -61,7 +61,7 @@
 #include "peripheral/evic/plib_evic.h"
 #include "peripheral/dmac/plib_dmac.h"
 #include "bsp/bsp.h"
-#include "peripheral/spi/plib_spi2.h"
+#include "peripheral/spi/spi_master/plib_spi2_master.h"
 #include "driver/sdspi/drv_sdspi.h"
 #include "system/int/sys_int.h"
 #include "system/ports/sys_ports.h"
