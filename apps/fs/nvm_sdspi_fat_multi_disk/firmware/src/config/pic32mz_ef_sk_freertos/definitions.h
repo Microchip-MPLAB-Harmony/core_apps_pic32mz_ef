@@ -66,7 +66,7 @@
 #include "system/fs/fat_fs/file_system/ff.h"
 #include "system/fs/fat_fs/file_system/ffconf.h"
 #include "system/fs/fat_fs/hardware_access/diskio.h"
-#include "peripheral/spi/plib_spi2.h"
+#include "peripheral/spi/spi_master/plib_spi2_master.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include "system/int/sys_int.h"
