@@ -131,6 +131,7 @@ const DRV_USART_PLIB_INTERFACE drvUsart0PlibAPI = {
     .read = (DRV_USART_PLIB_READ)UART2_Read,
     .readIsBusy = (DRV_USART_PLIB_READ_IS_BUSY)UART2_ReadIsBusy,
     .readCountGet = (DRV_USART_PLIB_READ_COUNT_GET)UART2_ReadCountGet,
+	.readAbort = (DRV_USART_PLIB_READ_ABORT)UART2_ReadAbort,
     .writeCallbackRegister = (DRV_USART_PLIB_WRITE_CALLBACK_REG)UART2_WriteCallbackRegister,
     .write = (DRV_USART_PLIB_WRITE)UART2_Write,
     .writeIsBusy = (DRV_USART_PLIB_WRITE_IS_BUSY)UART2_WriteIsBusy,
@@ -241,7 +242,7 @@ void SYS_Initialize ( void* data )
     
     /* Configure Prefetch, Wait States and ECC */
     PRECONbits.PREFEN = 3;
-    PRECONbits.PFMWS = 2;
+    PRECONbits.PFMWS = 3;
     CFGCONbits.ECCCON = 3;
 
 
