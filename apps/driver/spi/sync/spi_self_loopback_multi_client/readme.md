@@ -51,7 +51,6 @@ The following table shows the target hardware for the application projects.
 - Use jumper wire to connect "Pin 7 of J12" to "Pin 37 of J12"
     - SDI3 is mapped to RA14 that is routed to "Pin 7 of J12"
     - SDO3 is mapped to RD10 that is routed to "Pin 37 of J12"
-    - Connect a mini USB cable to the USB DEBUG port J3
 
 ## Running the Application
 
