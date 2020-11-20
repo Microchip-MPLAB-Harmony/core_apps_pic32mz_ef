@@ -1,0 +1,73 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.core_apps_pic32mz_ef_fs_sqi_flash_fat_pic32mz_ef_sk",
+		"version": "3.0.1",
+		"displayName": "FAT filesystem using SST26 Media Example for PIC32MZ EF Family",
+		"projectName": "sqi_flash_fat_pic32mz_ef_sk",
+		"shortDescription": "This application shows an example of using the MPLAB Harmony File System to access SQI based SST26 flash media",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32MZ-EF_DFP",
+			"semverRange": "^1.2.51"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32MZ2048EFH144",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32MZ Embedded Connectivity with FPU (EF) Starter Kit"
+			],
+			[
+				"Harmony", "Middleware", "File System (FS)", "SQI_FLASH_FAT"
+			],
+			[
+				"File System (FS)", "SQI_FLASH_FAT"
+			]
+		],
+		"peripherals": [
+			"SQI_FLASH_FAT"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"File System",
+			"PIC32MZ2048EFH144",
+			"PIC32MZ EF Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

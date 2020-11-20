@@ -1,0 +1,74 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.core_apps_pic32mz_ef_rtos_freertos_basic_freertos_pic32mz_ef_sk",
+		"version": "3.0.1",
+		"displayName": "FreeRTOS basic Example for PIC32MZ EF Family",
+		"projectName": "basic_freertos_pic32mz_ef_sk",
+		"shortDescription": "This example application blinks an LED to show the FreeRTOS threads that are running and to indicate status.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32MZ-EF_DFP",
+			"semverRange": "^1.2.51"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32MZ2048EFH144",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32MZ Embedded Connectivity with FPU (EF) Starter Kit"
+			],
+			[
+				"Harmony", "RTOS", "FreeRTOS", "BASIC_FREERTOS"
+			],
+			[
+				"RTOS", "FreeRTOS", "BASIC_FREERTOS"
+			]
+		],
+		"peripherals": [
+			"BASIC_FREERTOS"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"RTOS",
+			"FreeRTOS",
+			"PIC32MZ2048EFH144",
+			"PIC32MZ EF Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.core_apps_pic32mz_ef_driver_spi_sync_spi_self_loopback_multi_client_pic32mz_ef_sk_freertos",
+		"version": "3.0.1",
+		"displayName": "SPI Driver synchronous - Self loopback multi client Example for PIC32MZ EF Family",
+		"projectName": "sync_spi_self_loopback_multi_client_pic32mz_ef_sk_freertos",
+		"shortDescription": "This example demonstrates how to use the SPI driver in synchronous mode to achieve self-loop back between multiple clients in RTOS environment",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32MZ-EF_DFP",
+			"semverRange": "^1.2.51"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32MZ2048EFH144",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32MZ Embedded Connectivity with FPU (EF) Starter Kit"
+			],
+			[
+				"Harmony", "Drivers", "SPI"
+			],
+			[
+				"Peripherals", "SPI"
+			]
+		],
+		"peripherals": [
+			"SPI"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32MZ2048EFH144",
+			"PIC32MZ EF Family",
+			"SPI",
+			"Serial Communication",
+			"SERCOM",
+			"FLEXCOM"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
