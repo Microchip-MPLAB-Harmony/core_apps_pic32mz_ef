@@ -52,4 +52,76 @@
 #include <xc.h>
 #include "ISR_Support.h"
 
+    .extern  CHANGE_NOTICE_B_Handler
+
+    .section   .vector_119,code, keep
+    .equ     __vector_dispatch_119, IntVectorCHANGE_NOTICE_B_Handler
+    .global  __vector_dispatch_119
+    .set     nomicromips
+    .set     noreorder
+    .set     nomips16
+    .set     noat
+    .ent  IntVectorCHANGE_NOTICE_B_Handler
+
+IntVectorCHANGE_NOTICE_B_Handler:
+    portSAVE_CONTEXT
+    la    s6,  CHANGE_NOTICE_B_Handler
+    jalr  s6
+    nop
+    portRESTORE_CONTEXT
+    .end   IntVectorCHANGE_NOTICE_B_Handler
+    .extern  UART2_FAULT_Handler
+
+    .section   .vector_145,code, keep
+    .equ     __vector_dispatch_145, IntVectorUART2_FAULT_Handler
+    .global  __vector_dispatch_145
+    .set     nomicromips
+    .set     noreorder
+    .set     nomips16
+    .set     noat
+    .ent  IntVectorUART2_FAULT_Handler
+
+IntVectorUART2_FAULT_Handler:
+    portSAVE_CONTEXT
+    la    s6,  UART2_FAULT_Handler
+    jalr  s6
+    nop
+    portRESTORE_CONTEXT
+    .end   IntVectorUART2_FAULT_Handler
+    .extern  UART2_RX_Handler
+
+    .section   .vector_146,code, keep
+    .equ     __vector_dispatch_146, IntVectorUART2_RX_Handler
+    .global  __vector_dispatch_146
+    .set     nomicromips
+    .set     noreorder
+    .set     nomips16
+    .set     noat
+    .ent  IntVectorUART2_RX_Handler
+
+IntVectorUART2_RX_Handler:
+    portSAVE_CONTEXT
+    la    s6,  UART2_RX_Handler
+    jalr  s6
+    nop
+    portRESTORE_CONTEXT
+    .end   IntVectorUART2_RX_Handler
+    .extern  UART2_TX_Handler
+
+    .section   .vector_147,code, keep
+    .equ     __vector_dispatch_147, IntVectorUART2_TX_Handler
+    .global  __vector_dispatch_147
+    .set     nomicromips
+    .set     noreorder
+    .set     nomips16
+    .set     noat
+    .ent  IntVectorUART2_TX_Handler
+
+IntVectorUART2_TX_Handler:
+    portSAVE_CONTEXT
+    la    s6,  UART2_TX_Handler
+    jalr  s6
+    nop
+    portRESTORE_CONTEXT
+    .end   IntVectorUART2_TX_Handler
 

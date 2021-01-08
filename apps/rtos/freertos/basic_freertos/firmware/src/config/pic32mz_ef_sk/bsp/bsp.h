@@ -75,18 +75,10 @@
 #define LED3_Get() ((PORTH >> 2) & 0x1)
 #define LED3_On() (LATHSET = (1<<2))
 #define LED3_Off() (LATHCLR = (1<<2))
-/*** SWITCH Macros for SWITCH1 ***/
-#define SWITCH1_Get() ((PORTB >> 12) & 0x1)
-#define SWITCH1_STATE_PRESSED 0
-#define SWITCH1_STATE_RELEASED 1
 /*** SWITCH Macros for SWITCH2 ***/
 #define SWITCH2_Get() ((PORTB >> 13) & 0x1)
 #define SWITCH2_STATE_PRESSED 0
 #define SWITCH2_STATE_RELEASED 1
-/*** SWITCH Macros for SWITCH3 ***/
-#define SWITCH3_Get() ((PORTB >> 14) & 0x1)
-#define SWITCH3_STATE_PRESSED 0
-#define SWITCH3_STATE_RELEASED 1
 
 
 
