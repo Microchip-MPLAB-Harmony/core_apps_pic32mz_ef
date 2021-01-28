@@ -5,17 +5,13 @@
     Microchip Technology Inc.
 
   File Name:
-    interrupt.c
+    interrupt.h
 
   Summary:
     Interrupt vectors mapping
 
   Description:
-    This file maps all the interrupt vectors to their corresponding
-    implementations. If a particular module interrupt is used, then its ISR
-    definition can be found in corresponding PLIB source file. If a module
-    interrupt is not used, then its ISR implementation is mapped to dummy
-    handler.
+    This file contains declarations of device vectors used by Harmony 3
  *******************************************************************************/
 
 // DOM-IGNORE-BEGIN
@@ -43,63 +39,23 @@
  *******************************************************************************/
 // DOM-IGNORE-END
 
+#ifndef INTERRUPTS_H
+#define INTERRUPTS_H
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-
-#include "configuration.h"
-#include "interrupts.h"
-#include "definitions.h"
+#include <stdint.h>
 
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: System Interrupt Vector Functions
+// Section: Handler Routines
 // *****************************************************************************
 // *****************************************************************************
 
 
-void CORE_TIMER_InterruptHandler( void );
-void DMA0_InterruptHandler( void );
-void DMA1_InterruptHandler( void );
-void SPI2_RX_InterruptHandler( void );
-void SPI2_TX_InterruptHandler( void );
 
-
-
-/* All the handlers are defined here.  Each will call its PLIB-specific function. */
-void CORE_TIMER_Handler (void)
-{
-    CORE_TIMER_InterruptHandler();
-}
-
-
-
-void DMA0_Handler (void)
-{
-    DMA0_InterruptHandler();
-}
-
-void DMA1_Handler (void)
-{
-    DMA1_InterruptHandler();
-}
-
-void SPI2_RX_Handler (void)
-{
-    SPI2_RX_InterruptHandler();
-}
-
-void SPI2_TX_Handler (void)
-{
-    SPI2_TX_InterruptHandler();
-}
-
-
-
-
-/*******************************************************************************
- End of File
-*/
+#endif // INTERRUPTS_H
