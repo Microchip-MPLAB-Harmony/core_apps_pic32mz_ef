@@ -131,7 +131,7 @@ const DRV_USART_PLIB_INTERFACE drvUsart0PlibAPI = {
     .read = (DRV_USART_PLIB_READ)UART2_Read,
     .readIsBusy = (DRV_USART_PLIB_READ_IS_BUSY)UART2_ReadIsBusy,
     .readCountGet = (DRV_USART_PLIB_READ_COUNT_GET)UART2_ReadCountGet,
-	.readAbort = (DRV_USART_PLIB_READ_ABORT)UART2_ReadAbort,
+    .readAbort = (DRV_USART_PLIB_READ_ABORT)UART2_ReadAbort,
     .writeCallbackRegister = (DRV_USART_PLIB_WRITE_CALLBACK_REG)UART2_WriteCallbackRegister,
     .write = (DRV_USART_PLIB_WRITE)UART2_Write,
     .writeIsBusy = (DRV_USART_PLIB_WRITE_IS_BUSY)UART2_WriteIsBusy,
@@ -186,6 +186,8 @@ const DRV_USART_INIT drvUsart0InitData =
     .remapStopBits = drvUsart0remapStopBits,
 
     .remapError = drvUsart0remapError,
+
+    .dataWidth = DRV_USART_DATA_8_BIT,
 };
 
 // </editor-fold>
@@ -234,6 +236,7 @@ SYSTEM_OBJECTS sysObj;
 
 void SYS_Initialize ( void* data )
 {
+
     /* Start out with interrupts disabled before configuring any modules */
     __builtin_disable_interrupts();
 
