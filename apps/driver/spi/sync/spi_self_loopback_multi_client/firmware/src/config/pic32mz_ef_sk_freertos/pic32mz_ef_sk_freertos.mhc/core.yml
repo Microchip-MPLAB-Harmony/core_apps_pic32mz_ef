@@ -4077,14 +4077,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: drv_spi_0, value: 'false'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMA_CH_NEEDED_FOR_SPI3_Transmit}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: drv_spi_0, value: 'false'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMA_ENABLE}
     children:
@@ -4315,7 +4315,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: FreeRTOS, value: 'true'}
+        attributes: {id: core, value: 'true'}
   - type: Boolean
     attributes: {id: EVIC_4_ENABLE_GENERATE}
     children:
@@ -4379,6 +4379,15 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0'}
+  - type: File
+    attributes: {id: EVIC_INT_ASM}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
   - type: Combo
     attributes: {id: EVIC_PRIORITY_1ATTRIBUTE}
     children:
