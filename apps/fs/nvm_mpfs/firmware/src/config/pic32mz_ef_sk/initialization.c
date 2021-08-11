@@ -216,13 +216,15 @@ const SYS_FS_FUNCTIONS MPFSFunctions =
     .getCluster        = NULL
 };
 
+
 const SYS_FS_REGISTRATION_TABLE sysFSInit [ SYS_FS_MAX_FILE_SYSTEM_TYPE ] =
 {
     {
         .nativeFileSystemType = MPFS2,
         .nativeFileSystemFunctions = &MPFSFunctions
-    }
+    },
 };
+
 
 // </editor-fold>
 
@@ -262,7 +264,6 @@ void SYS_Initialize ( void* data )
 
   
     CLK_Initialize();
-    
     /* Configure Prefetch, Wait States and ECC */
     PRECONbits.PREFEN = 3;
     PRECONbits.PFMWS = 3;
