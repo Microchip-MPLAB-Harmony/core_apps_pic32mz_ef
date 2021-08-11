@@ -77,7 +77,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: driver/sqi_flash/sst26/src/drv_sst26_sqi.c.ftl}
+        - {type: Value, value: driver/sqi_flash/sst26/src/drv_sst26_sqi_pic.c.ftl}
   - type: Integer
     attributes: {id: ERASE_BUFFER_SIZE}
     children:
