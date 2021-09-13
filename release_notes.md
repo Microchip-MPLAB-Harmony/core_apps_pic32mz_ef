@@ -14,7 +14,7 @@ nav_order: 99
 
 Following table provides number of peripheral library examples available for different development kits.
 
-| Development Kits  | MPLABx applications |
+| Development Kits  | MPLAB X applications |
 |:-----------------:|:-------------------:|
 | [PIC32MZ Embedded Connectivity with FPU (EF) Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/dm320007) | 23 |
 
@@ -39,7 +39,7 @@ Following table provides number of peripheral library examples available for dif
 
 Following table provides number of peripheral library examples available for different development kits.
 
-| Development Kits  | MPLABx applications |
+| Development Kits  | MPLAB X applications |
 |:-----------------:|:-------------------:|
 | [PIC32MZ Embedded Connectivity with FPU (EF) Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/dm320007) | 23 |
 
@@ -78,7 +78,7 @@ Following table provides number of peripheral library examples available for dif
 
 Following table provides number of peripheral library examples available for different development kits.
 
-| Development Kits  | MPLABx applications |
+| Development Kits  | MPLAB X applications |
 |:-----------------:|:-------------------:|
 | [PIC32MZ Embedded Connectivity with FPU (EF) Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/dm320007) | 23 |
 
