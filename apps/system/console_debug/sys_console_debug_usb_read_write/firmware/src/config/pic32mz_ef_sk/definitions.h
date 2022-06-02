@@ -51,9 +51,9 @@
 #include "peripheral/clk/plib_clk.h"
 #include "peripheral/gpio/plib_gpio.h"
 #include "peripheral/evic/plib_evic.h"
+#include "bsp/bsp.h"
 #include "usb/usb_chapter_9.h"
 #include "usb/usb_device.h"
-#include "bsp/bsp.h"
 #include "system/time/sys_time.h"
 #include "usb/usb_device_cdc.h"
 #include "usb/usb_cdc.h"
@@ -193,9 +193,9 @@ typedef struct
 
 	SYS_MODULE_OBJ  usbDevObject0;
 
+    SYS_MODULE_OBJ  sysTime;
     SYS_MODULE_OBJ  sysDebug;
 
-    SYS_MODULE_OBJ  sysTime;
 	SYS_MODULE_OBJ  drvUSBHSObject;
 
     SYS_MODULE_OBJ  sysConsole0;
