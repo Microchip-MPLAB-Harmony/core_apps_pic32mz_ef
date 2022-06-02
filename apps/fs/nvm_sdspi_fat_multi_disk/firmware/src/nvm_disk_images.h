@@ -41,8 +41,8 @@
 #ifndef _NVM_DISK_IMAGES_H_
 #define _NVM_DISK_IMAGES_H_
 
+
 #define KEEP              __attribute__((keep)) __attribute__((address(DRV_MEMORY_DEVICE_START_ADDRESS)))
 
 
 #endif
-
