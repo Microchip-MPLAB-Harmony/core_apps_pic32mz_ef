@@ -91,13 +91,6 @@ extern "C" {
 #define SYS_CONSOLE_RTOS_STACK_SIZE_IDX1               256
 #define SYS_CONSOLE_RTOS_TASK_PRIORITY_IDX1                     1
 
-
-#define SYS_DEBUG_ENABLE
-#define SYS_DEBUG_GLOBAL_ERROR_LEVEL       SYS_ERROR_DEBUG
-#define SYS_DEBUG_BUFFER_DMA_READY
-#define SYS_DEBUG_USE_CONSOLE
-
-
 /* TIME System Service Configuration Options */
 #define SYS_TIME_INDEX_0                            (0)
 #define SYS_TIME_MAX_TIMERS                         (5)
@@ -106,6 +99,13 @@ extern "C" {
 #define SYS_TIME_HW_COUNTER_HALF_PERIOD             (SYS_TIME_HW_COUNTER_PERIOD>>1)
 #define SYS_TIME_CPU_CLOCK_FREQUENCY                (200000000)
 #define SYS_TIME_COMPARE_UPDATE_EXECUTION_CYCLES    (620)
+
+
+#define SYS_DEBUG_ENABLE
+#define SYS_DEBUG_GLOBAL_ERROR_LEVEL       SYS_ERROR_DEBUG
+#define SYS_DEBUG_BUFFER_DMA_READY
+#define SYS_DEBUG_USE_CONSOLE
+
 
 #define SYS_CONSOLE_DEVICE_MAX_INSTANCES   			2
 #define SYS_CONSOLE_UART_MAX_INSTANCES 	   			0
@@ -153,19 +153,6 @@ extern "C" {
 #define USB_DEVICE_EP0_BUFFER_SIZE                          64
 
 
-
-
-
-
-/* Maximum instances of CDC function driver */
-#define USB_DEVICE_CDC_INSTANCES_NUMBER                     2
-
-
-/* CDC Transfer Queue Size for both read and
-   write. Applicable to all instances of the
-   function driver */
-#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 6
-
 /*** USB Driver Configuration ***/
 
 /* Maximum USB driver instances */
@@ -186,6 +173,15 @@ extern "C" {
 
 /* Alignment for buffers that are submitted to USB Driver*/ 
 #define USB_ALIGN  CACHE_ALIGN  __ALIGNED(16)
+
+/* Maximum instances of CDC function driver */
+#define USB_DEVICE_CDC_INSTANCES_NUMBER                     2
+
+
+/* CDC Transfer Queue Size for both read and
+   write. Applicable to all instances of the
+   function driver */
+#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 6
 
 
 
