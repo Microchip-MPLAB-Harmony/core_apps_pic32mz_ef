@@ -1,21 +1,23 @@
-/*******************************************************************************
-  Memory Driver NVM Interface Definition
+/******************************************************************************
+  SD Card (SPI) Driver File System Interface Implementation
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    drv_memory_nvm.h
+    drv_sdspi_file_system.h
 
   Summary:
-    Memory Driver NVM Interface Definition
+    SD Card (SPI) Driver Interface Definition
 
   Description:
-    The Memory Driver provides a interface to access the NVM peripheral on the
-    microcontroller.
+    The SD Card Driver provides a interface to access the SD Card. This file
+    implements the SD Card Driver file system interface.
+    This file should be included in the project if SD Card driver functionality
+    with File system is needed.
 *******************************************************************************/
 
-//DOM-IGNORE-BEGIN
+// DOM-IGNORE-BEGIN
 /*******************************************************************************
 * Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
 *
@@ -37,50 +39,42 @@
 * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
-*******************************************************************************/
-//DOM-IGNORE-END
+ *******************************************************************************/
+// DOM-IGNORE-END
+#ifndef DRV_SDSPI_FILE_SYSTEM_H
+#define DRV_SDSPI_FILE_SYSTEM_H
 
-#ifndef DRV_MEMORY_NVM_H
-#define DRV_MEMORY_NVM_H
-
 // *****************************************************************************
 // *****************************************************************************
-// Section: File includes
+// Section: Include Files
 // *****************************************************************************
 // *****************************************************************************
 
-#include "drv_memory_definitions.h"
+#include "driver/sdspi/drv_sdspi.h"
+#include "system/fs/sys_fs_media_manager.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
     extern "C" {
 #endif
-
 // DOM-IGNORE-END
+// *****************************************************************************
+// *****************************************************************************
+// Section: Global objects
+// *****************************************************************************
+// *****************************************************************************
 
-DRV_HANDLE DRV_NVM_Open( const SYS_MODULE_INDEX drvIndex, const DRV_IO_INTENT ioIntent );
 
-void DRV_NVM_Close( const DRV_HANDLE handle );
+// *****************************************************************************
+// *****************************************************************************
+// Section: MEMORY Driver File system interface Routines
+// *****************************************************************************
+// *****************************************************************************
 
-SYS_STATUS DRV_NVM_Status( const SYS_MODULE_INDEX drvIndex );
-
-bool DRV_NVM_SectorErase( const DRV_HANDLE handle, uint32_t address );
-
-bool DRV_NVM_Read( const DRV_HANDLE handle, void *rx_data, uint32_t rx_data_length, uint32_t address );
-
-bool DRV_NVM_PageWrite( const DRV_HANDLE handle, void *tx_data, uint32_t address );
-
-void DRV_NVM_EventHandlerSet( const DRV_HANDLE handle, const DRV_MEMORY_EVENT_HANDLER eventHandler, const uintptr_t context );
-
-MEMORY_DEVICE_TRANSFER_STATUS DRV_NVM_TransferStatusGet( const DRV_HANDLE handle );
-
-bool DRV_NVM_GeometryGet( const DRV_HANDLE handle, MEMORY_DEVICE_GEOMETRY *geometry );
+void DRV_SDSPI_RegisterWithSysFs( const SYS_MODULE_INDEX drvIndex);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // #ifndef DRV_MEMORY_NVM_H
-/*******************************************************************************
- End of File
-*/
+#endif //#ifndef DRV_SDSPI_FILE_SYSTEM_H

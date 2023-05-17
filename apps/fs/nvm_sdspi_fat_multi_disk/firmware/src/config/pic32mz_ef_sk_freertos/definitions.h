@@ -56,8 +56,8 @@
 #include "bsp/bsp.h"
 #include "driver/memory/drv_memory.h"
 #include "driver/sdspi/drv_sdspi.h"
-#include "peripheral/nvm/plib_nvm.h"
 #include "system/time/sys_time.h"
+#include "peripheral/nvm/plib_nvm.h"
 #include "peripheral/coretimer/plib_coretimer.h"
 #include "driver/memory/drv_memory_nvm.h"
 #include "system/fs/sys_fs.h"
@@ -86,6 +86,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "PIC32MZ2048EFH144"
+#define DEVICE_ARCH			 "MIPS"
+#define DEVICE_FAMILY		 "PIC32MZEF"
+#define DEVICE_SERIES		 "PIC32MZ"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 200000000
