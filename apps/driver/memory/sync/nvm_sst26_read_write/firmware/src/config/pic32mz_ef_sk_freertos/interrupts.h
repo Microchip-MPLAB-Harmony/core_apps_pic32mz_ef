@@ -57,6 +57,10 @@
 // *****************************************************************************
 // *****************************************************************************
 
+void CORE_TIMER_InterruptHandler( void );
+void NVM_InterruptHandler( void );
+void SQI1_InterruptHandler( void );
+
 
 
 #endif // INTERRUPTS_H
