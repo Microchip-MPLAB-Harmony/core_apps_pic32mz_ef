@@ -73,6 +73,7 @@
           <itemPath>../src/config/pic32mz_ef_sk_freertos/user.h</itemPath>
           <itemPath>../src/config/pic32mz_ef_sk_freertos/configuration.h</itemPath>
           <itemPath>../src/config/pic32mz_ef_sk_freertos/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32mz_ef_sk_freertos/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="FreeRTOS" projectFiles="true">
