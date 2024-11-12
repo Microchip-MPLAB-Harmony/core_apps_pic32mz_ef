@@ -79,17 +79,17 @@ void UART2_TX_Handler (void);
 // *****************************************************************************
 
 
-void UART2_FAULT_Handler (void)
+void __attribute__((used)) UART2_FAULT_Handler (void)
 {
     UART2_FAULT_InterruptHandler();
 }
 
-void UART2_RX_Handler (void)
+void __attribute__((used)) UART2_RX_Handler (void)
 {
     UART2_RX_InterruptHandler();
 }
 
-void UART2_TX_Handler (void)
+void __attribute__((used)) UART2_TX_Handler (void)
 {
     UART2_TX_InterruptHandler();
 }
