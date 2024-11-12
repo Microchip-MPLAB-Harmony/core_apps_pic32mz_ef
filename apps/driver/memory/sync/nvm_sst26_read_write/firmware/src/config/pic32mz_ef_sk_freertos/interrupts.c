@@ -77,19 +77,19 @@ void SQI1_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void CORE_TIMER_Handler (void)
+void __attribute__((used)) CORE_TIMER_Handler (void)
 {
     CORE_TIMER_InterruptHandler();
 }
 
 
 
-void FLASH_CONTROL_Handler (void)
+void __attribute__((used)) FLASH_CONTROL_Handler (void)
 {
     NVM_InterruptHandler();
 }
 
-void SQI1_Handler (void)
+void __attribute__((used)) SQI1_Handler (void)
 {
     SQI1_InterruptHandler();
 }

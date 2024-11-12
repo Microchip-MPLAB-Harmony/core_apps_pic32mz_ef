@@ -60,8 +60,11 @@
 // Section: RTOS "Tasks" Routine
 // *****************************************************************************
 // *****************************************************************************
+
 /* Handle for the APP_SST26_Tasks. */
 TaskHandle_t xAPP_SST26_Tasks;
+
+
 
 static void lAPP_SST26_Tasks(  void *pvParameters  )
 {   
@@ -71,8 +74,11 @@ static void lAPP_SST26_Tasks(  void *pvParameters  )
         vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
+
 /* Handle for the APP_NVM_Tasks. */
 TaskHandle_t xAPP_NVM_Tasks;
+
+
 
 static void lAPP_NVM_Tasks(  void *pvParameters  )
 {   
@@ -82,8 +88,11 @@ static void lAPP_NVM_Tasks(  void *pvParameters  )
         vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
+
 /* Handle for the APP_MONITOR_Tasks. */
 TaskHandle_t xAPP_MONITOR_Tasks;
+
+
 
 static void lAPP_MONITOR_Tasks(  void *pvParameters  )
 {   
@@ -124,30 +133,33 @@ void SYS_Tasks ( void )
     
 
     /* Maintain the application's state machine. */
-        /* Create OS Thread for APP_SST26_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_SST26_Tasks,
-                "APP_SST26_Tasks",
-                1024,
-                NULL,
-                2,
-                &xAPP_SST26_Tasks);
+    
+    /* Create OS Thread for APP_SST26_Tasks. */
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_SST26_Tasks,
+           "APP_SST26_Tasks",
+           1024,
+           NULL,
+           2U ,
+           &xAPP_SST26_Tasks);
 
     /* Create OS Thread for APP_NVM_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_NVM_Tasks,
-                "APP_NVM_Tasks",
-                1024,
-                NULL,
-                2,
-                &xAPP_NVM_Tasks);
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_NVM_Tasks,
+           "APP_NVM_Tasks",
+           1024,
+           NULL,
+           2U ,
+           &xAPP_NVM_Tasks);
 
     /* Create OS Thread for APP_MONITOR_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_MONITOR_Tasks,
-                "APP_MONITOR_Tasks",
-                128,
-                NULL,
-                1,
-                &xAPP_MONITOR_Tasks);
-
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_MONITOR_Tasks,
+           "APP_MONITOR_Tasks",
+           128,
+           NULL,
+           1U ,
+           &xAPP_MONITOR_Tasks);
 
 
 
