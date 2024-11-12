@@ -60,48 +60,51 @@
 // Section: RTOS "Tasks" Routine
 // *****************************************************************************
 // *****************************************************************************
-void _SYS_CONSOLE_1_Tasks(  void *pvParameters  )
+static void lSYS_CONSOLE_1_Tasks(  void *pvParameters  )
 {
-    while(1)
+    while(true)
     {
         SYS_CONSOLE_Tasks(SYS_CONSOLE_INDEX_1);
-        vTaskDelay(10 / portTICK_PERIOD_MS);
+        vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
 
 
-void _USB_DEVICE_Tasks(  void *pvParameters  )
+static void F_USB_DEVICE_Tasks(  void *pvParameters  )
 {
-    while(1)
+    while(true)
     {
                 /* USB Device layer tasks routine */
         USB_DEVICE_Tasks(sysObj.usbDevObject0);
-        vTaskDelay(10 / portTICK_PERIOD_MS);
+        vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
 
-void _DRV_USBHS_Tasks(  void *pvParameters  )
+static void F_DRV_USBHS_Tasks(  void *pvParameters  )
 {
-    while(1)
+    while(true)
     {
-				 /* USB FS Driver Task Routine */
+                 /* USB FS Driver Task Routine */
         DRV_USBHS_Tasks(sysObj.drvUSBHSObject);
-        vTaskDelay(10 / portTICK_PERIOD_MS);
+        vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
 
-void _SYS_CONSOLE_0_Tasks(  void *pvParameters  )
+static void lSYS_CONSOLE_0_Tasks(  void *pvParameters  )
 {
-    while(1)
+    while(true)
     {
         SYS_CONSOLE_Tasks(SYS_CONSOLE_INDEX_0);
-        vTaskDelay(10 / portTICK_PERIOD_MS);
+        vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
+
 
 
 /* Handle for the APP_Tasks. */
 TaskHandle_t xAPP_Tasks;
+
+
 
 static void lAPP_Tasks(  void *pvParameters  )
 {   
@@ -130,19 +133,19 @@ static void lAPP_Tasks(  void *pvParameters  )
 void SYS_Tasks ( void )
 {
     /* Maintain system services */
-        xTaskCreate( _SYS_CONSOLE_1_Tasks,
+        xTaskCreate( lSYS_CONSOLE_1_Tasks,
         "SYS_CONSOLE_1_TASKS",
         SYS_CONSOLE_RTOS_STACK_SIZE_IDX1,
         (void*)NULL,
-        SYS_CONSOLE_RTOS_TASK_PRIORITY_IDX1,
+        SYS_CONSOLE_RTOS_TASK_PRIORITY_IDX1 ,
         (TaskHandle_t*)NULL
     );
 
-    xTaskCreate( _SYS_CONSOLE_0_Tasks,
+    xTaskCreate( lSYS_CONSOLE_0_Tasks,
         "SYS_CONSOLE_0_TASKS",
         SYS_CONSOLE_RTOS_STACK_SIZE_IDX0,
         (void*)NULL,
-        SYS_CONSOLE_RTOS_TASK_PRIORITY_IDX0,
+        SYS_CONSOLE_RTOS_TASK_PRIORITY_IDX0 ,
         (TaskHandle_t*)NULL
     );
 
@@ -153,7 +156,7 @@ void SYS_Tasks ( void )
 
     /* Maintain Middleware & Other Libraries */
         /* Create OS Thread for USB_DEVICE_Tasks. */
-    xTaskCreate( _USB_DEVICE_Tasks,
+    (void) xTaskCreate( F_USB_DEVICE_Tasks,
         "USB_DEVICE_TASKS",
         1024,
         (void*)NULL,
@@ -161,8 +164,8 @@ void SYS_Tasks ( void )
         (TaskHandle_t*)NULL
     );
 
-	/* Create OS Thread for USB Driver Tasks. */
-    xTaskCreate( _DRV_USBHS_Tasks,
+    /* Create OS Thread for USB Driver Tasks. */
+    (void) xTaskCreate( F_DRV_USBHS_Tasks,
         "DRV_USBHS_TASKS",
         1024,
         (void*)NULL,
@@ -173,14 +176,15 @@ void SYS_Tasks ( void )
 
 
     /* Maintain the application's state machine. */
-        /* Create OS Thread for APP_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_Tasks,
-                "APP_Tasks",
-                1024,
-                NULL,
-                1,
-                &xAPP_Tasks);
-
+    
+    /* Create OS Thread for APP_Tasks. */
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_Tasks,
+           "APP_Tasks",
+           1024,
+           NULL,
+           1U ,
+           &xAPP_Tasks);
 
 
 
