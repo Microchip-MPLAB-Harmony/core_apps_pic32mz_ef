@@ -1,4 +1,4 @@
-<config configName="pic32mz_ef_sk" projectName="task_notification_freertos_pic32mz_ef_sk" configVersion="1.1" device="PIC32MZ2048EFH144" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.0">
+<config configName="pic32mz_ef_sk" projectName="task_notification_freertos_pic32mz_ef_sk" configVersion="1.1" device="PIC32MZ2048EFH144" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -23,7 +23,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.3.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.3"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1221,250 +1221,254 @@
          <value>__ROOTVIEW</value>
       </entry>
    </tokenMap>
-   <generatedFileHashHistoryMap class="java.util.HashMap">
+   <generatedFileHashHistoryMap class="java.util.TreeMap">
       <entry>
-         <file>..\src\config\pic32mz_ef_sk\osal\osal.h</file>
-         <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\sys_tasks.h</file>
-         <hash>c85c4ebfa252edb87e7352d6c72df9abbc6ae0a4609521eb6b42e6236e1162ea</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\task.h</file>
-         <hash>45f2245c914ed25ab26a1ea78ddd4ac74cb6522e1b26ac5c44b614ca4c8cee99</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\timers.c</file>
-         <hash>24962ef361f396aaa5e6e33776eeeddaf2fb251c87b6fe50602acc56c537b093</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\stream_buffer.h</file>
-         <hash>b876d839460197d94d0f95fb93c6aeb457f6fc572d32258480fed7d4de686b6b</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\port_asm.S</file>
-         <hash>07555285e8e80a89b611945f028fb8140ef0308adda388187461734b5b629c75</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\list.h</file>
-         <hash>dc572f54391c0407fc25db360d912fca9118cddae7bd2e3099eb13f18804e5a9</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\ISR_Support.h</file>
-         <hash>1383b839420a54f23c13f4f2866202e976d24029ba24d1a1c34a9a3f34aecd58</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\semphr.h</file>
-         <hash>c624e8cdfc07844d4cf35382f3cc908c872375c7a3048482bdc110bda88cc4f2</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\timers.h</file>
-         <hash>ee0f596a54137e26ca806ebf067c4c6219a61348f1cbae8861a43d2d4891e1f9</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\configuration.h</file>
-         <hash>321175fed312776d5e0da9d63da1fca0673933ab0298c1d9a4aeb32cf5873639</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\croutine.h</file>
-         <hash>cf52c15fa26a8d4f82b55909b75ebfe2aab25468ba7780748912ddead9812b4e</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c</file>
-         <hash>14020d617b96dd2814e1211f6e3b645bcf5e2bd3179c23fe7dd16bc666fe9463</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\p32MZ2048EFH144.ld</file>
-         <hash>bb79d747f7a82dd825972c04040708a3816a5ec975048a3decfb71aa3c0eec7c</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\event_groups.c</file>
-         <hash>76e967b14d231e4f31f014f1564f359a7bfd36bfa263ee6f437afa8c056df657</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\croutine.c</file>
-         <hash>ebf0cdce261dc4a256c06c0d4ad2582e6026a6da0e973d4cb92092e94ce8f370</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\freertos_hooks.c</file>
-         <hash>df9951e92b8a1def21275bb67457032f443f50e7e793aa970ff50f65f847b453</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\peripheral\clk\plib_clk.h</file>
-         <hash>35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\peripheral\gpio\plib_gpio.c</file>
-         <hash>15cbb1f5b75981155d0fb0c90cc68f85a310013f4615fd64f47ba421f8655dc2</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\peripheral\clk\plib_clk.c</file>
-         <hash>bee825f9af0b6eebefa2ea2e13597c9c62d07eaabc78be9b9f4f6f58942f3d19</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\bsp\bsp.c</file>
-         <hash>9359a3559e2ada22752465e4d372cd65f481e1875cd14b827c88a323e5ea36d0</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\portable.h</file>
-         <hash>7ade8f368002778c723b3c4e14084910b7225cd36363ed0c948e9ea36c6f251f</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\initialization.c</file>
-         <hash>f11025c73fe8ce2f7c932b28c8f5d868424d6a5d2153de1ad5c5c41bbf920850</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\bsp\bsp.h</file>
-         <hash>6f607e0ed88612c26922cd6429b575d942564638aab73b79563070b624d8ccbd</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\device.h</file>
-         <hash>10ec93c43a7b158a129ae05bd8f4a59ff5bcf3d0f3f062fdd64c374bc2d42099</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\list.c</file>
-         <hash>db5c169cf3efd68da1c6a923ac84eebc724d602c940bde0b9b5f01f05028fde4</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MemMang\heap_1.c</file>
-         <hash>286e3fee81c9107fc6dec40405f500cabdca56836d29747c182f0899bb8997fd</hash>
+         <file>..\src\app.c</file>
+         <hash>632c78c323cb9f8c6359f20337440c08f8461eb4b0304552b6a3cfd5c4052620</hash>
       </entry>
       <entry>
          <file>..\src\app.h</file>
          <hash>8e35d8509552a4d1d6e6f123ad75694cf784a707f7dac592ed33b55121aa8e28</hash>
       </entry>
       <entry>
-         <file>..\src\config\pic32mz_ef_sk\interrupts.c</file>
-         <hash>d3a1f322c8612782486fc640ea0ed8fb531efc565a769d6cd7aa15d840b0ab45</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\peripheral\gpio\plib_gpio.h</file>
-         <hash>df6d121e8464522528a5a7b03eae4bc3436ee5ed9c9af4ad80563bdecd26dc8e</hash>
-      </entry>
-      <entry>
-         <file>..\src\app.c</file>
-         <hash>632c78c323cb9f8c6359f20337440c08f8461eb4b0304552b6a3cfd5c4052620</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\stack_macros.h</file>
-         <hash>3cddf2b3d47ae387e376ac75eb468f9d8ffb575d68c143e08d54af4087474cce</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\user.h</file>
-         <hash>451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\interrupts.h</file>
-         <hash>759cce8ff415eadadd85a74232a5023d73e8859a4556ef4beb93c2cfd4b8d8ef</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
-         <hash>2b46a2511ce5d23a56bc83079333d8d0a2e33763e5829c9383252806887a3dc0</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\toolchain_specifics.h</file>
-         <hash>46df1f0890b9f712472ddd70e6cbc7812f6d093bdd692d48dda0b8aa18e1b9f1</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\tasks.c</file>
-         <hash>9b5354c05c166c88646be4d3e1a24dcd68f2a49e1b0adf80bd928db7cee2c58c</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\exceptions.c</file>
-         <hash>30b880390be9495d817d130a99612cbe4a21ce5f953a22bf77fc97872b770538</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\stdio\xc32_monitor.c</file>
-         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\projdefs.h</file>
-         <hash>8faf4220ded25b00fd72424a2fa4e63e154713ae7b42f7270f1e3289362a6312</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\FreeRTOS.h</file>
-         <hash>03e9c94aba57e3cf7f4f73bc2d3eb4a96ae38f3425eedb5450622ca286475a0b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\definitions.h</file>
-         <hash>d50372985b66dadff607232d3ccfc64ae5a6c518e4f4185c94ca7510a03914da</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\message_buffer.h</file>
-         <hash>9a8141d3d6c8044a57d7e448180c9bd2ed32e45ded32be288d095a39dced91ab</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\osal\osal_freertos.c</file>
-         <hash>85201651ffb4dad86674b478746e0dc8cd833f98b39c83efc2ae3639f3efdd3b</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\event_groups.h</file>
-         <hash>7b3dd12a50d649c124c1af8be742671b9965b6f924310bda7984fe1b65c7f54a</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\queue.c</file>
-         <hash>5cdf4fa35fe059446effff5bf20deaf83ddffb08921bc198fda106b1d17dd894</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\port.c</file>
-         <hash>0c7ec508b6ff59ff3a681dc18dd544164c80b9035d85a907f09912564409117f</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>
-         <hash>5014408cc33f0f616215f2b48c67b0d47ccc35bfd5f0044ac653b5bbc6cf5778</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\include\queue.h</file>
-         <hash>1b61c1669091e59798a34c32c0f1e234d3f6a645f47641753eceeb7e1d9ce628</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\interrupts_a.S</file>
-         <hash>60360e480f6ba2c2d0d3d1b3dda775b0a16db7c5550bbe529761221cb2146a84</hash>
-      </entry>
-      <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\portmacro.h</file>
-         <hash>166f2c5cafe84b0bab9bfbea52f35de8e2f9ce8de79eb8a036fa6fb5d7f814a2</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\pic32mz_ef_sk\osal\osal_freertos.h</file>
-         <hash>7ad9faa903d8587bab9490660328f134b8e027f9c24bca47201f3f96f3b99474</hash>
+         <file>..\src\app1.c</file>
+         <hash>3c35d84efec37b87ed185c5359d079cae5e24f63904897d169f624bc397d9dc9</hash>
       </entry>
       <entry>
          <file>..\src\app1.h</file>
          <hash>1f831d6201b58406a84bddbe88724ea46d980f2cab76a2071c2fd4aafd7cdd69</hash>
       </entry>
       <entry>
-         <file>..\src\app1.c</file>
-         <hash>3c35d84efec37b87ed185c5359d079cae5e24f63904897d169f624bc397d9dc9</hash>
+         <file>..\src\config\pic32mz_ef_sk\FreeRTOSConfig.h</file>
+         <hash>f8fed57782e0ed4751d094b3c2af7a5f6a64a656e7cf20cc68b8eab35451c9a0</hash>
       </entry>
       <entry>
-         <file>..\src\config\pic32mz_ef_sk\peripheral\evic\plib_evic.c</file>
-         <hash>9f7449415a719bfe60947c2bdb3144245cfc400cf06861ccbfe6df6b81f4fb20</hash>
+         <file>..\src\config\pic32mz_ef_sk\bsp\bsp.c</file>
+         <hash>9359a3559e2ada22752465e4d372cd65f481e1875cd14b827c88a323e5ea36d0</hash>
       </entry>
       <entry>
-         <file>..\src\config\pic32mz_ef_sk\peripheral\evic\plib_evic.h</file>
-         <hash>99ea8255ad17a7d7368d57f2df1280fffac1961e1b89a2cb62bc35be8072e5bd</hash>
+         <file>..\src\config\pic32mz_ef_sk\bsp\bsp.h</file>
+         <hash>6f607e0ed88612c26922cd6429b575d942564638aab73b79563070b624d8ccbd</hash>
       </entry>
       <entry>
-         <file>..\src\third_party\rtos\FreeRTOS\Source\stream_buffer.c</file>
-         <hash>0ec303ba296caca5de955dc470bcadd134fb15b192ddf61c9afc92070bc1039a</hash>
+         <file>..\src\config\pic32mz_ef_sk\configuration.h</file>
+         <hash>321175fed312776d5e0da9d63da1fca0673933ab0298c1d9a4aeb32cf5873639</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\definitions.h</file>
+         <hash>e9172c7fab4069d9fc59b476e321eaf8500b46d59c37e7c2963b1de9d1300eec</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\device.h</file>
+         <hash>10ec93c43a7b158a129ae05bd8f4a59ff5bcf3d0f3f062fdd64c374bc2d42099</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\exceptions.c</file>
+         <hash>8c1843dacd6aec28ef12be3d763763a268e0facd02d4f1e7d67e21a8d73061d1</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\freertos_hooks.c</file>
+         <hash>c97b8f92ad60ff513a27ac7a27b3c6824b75005eb8f7b85fe5ae18deaf568c4e</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\initialization.c</file>
+         <hash>2e003088d839dd142be800a3e25b2e4bed9fa53c2373e0be79a3638ca9cda984</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\interrupts.c</file>
+         <hash>d3a1f322c8612782486fc640ea0ed8fb531efc565a769d6cd7aa15d840b0ab45</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\interrupts.h</file>
+         <hash>759cce8ff415eadadd85a74232a5023d73e8859a4556ef4beb93c2cfd4b8d8ef</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\interrupts_a.S</file>
+         <hash>60360e480f6ba2c2d0d3d1b3dda775b0a16db7c5550bbe529761221cb2146a84</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\osal\osal.h</file>
+         <hash>1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mz_ef_sk\osal\osal_definitions.h</file>
          <hash>af2f2336fac0fd5b49fb2d1c8f81baa4f554101b06f130aaa608cd9685c4ac35</hash>
       </entry>
       <entry>
+         <file>..\src\config\pic32mz_ef_sk\osal\osal_freertos.c</file>
+         <hash>565c6dc54044f91bfd235f3f240e2ddf0ff49189d692fe5be50862d2b6c296f0</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\osal\osal_freertos.h</file>
+         <hash>f9d8c97ce37bbb7516242ec37c4b0db387090cfed54580af683bc0ce126094e0</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\p32MZ2048EFH144.ld</file>
+         <hash>11adbfaeda6e28c761f00e2e60d6e7295fd8f5deffcefba4808464abca0c2a5c</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\peripheral\clk\plib_clk.c</file>
+         <hash>73f7a9abb00b33afae0b892340a47b9841fb593fda7945d064473fd2c4367835</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\peripheral\clk\plib_clk.h</file>
+         <hash>35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\peripheral\evic\plib_evic.c</file>
+         <hash>1bef337138d168802e01360953bf4ad7cc4c114e86adb0fa3196c9c82e67dea1</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\peripheral\evic\plib_evic.h</file>
+         <hash>486ea1d5c05801c1d1d96f3d3d5c5af20a9794640d4ca54f98c28add9188665f</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\peripheral\gpio\plib_gpio.c</file>
+         <hash>24416f7702d6c6a6feca1f180b35f4dc46c2a35c243b9041058701caa5167431</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\peripheral\gpio\plib_gpio.h</file>
+         <hash>108fc503975f63e53fb4ce73a77f7bd0ff77c1bca060b91a7ad75b74c1861488</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\stdio\xc32_monitor.c</file>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\sys_tasks.h</file>
+         <hash>c85c4ebfa252edb87e7352d6c72df9abbc6ae0a4609521eb6b42e6236e1162ea</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\tasks.c</file>
+         <hash>2fe83bb3baf8108906f2b583d60220d5793de3dc734014b1aedb97dfe166de72</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\toolchain_specifics.h</file>
+         <hash>fd2fc7bbe60706409cc0c0a525825c0194f6f71adc0a89e6310041f06dc2f645</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mz_ef_sk\user.h</file>
+         <hash>451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995</hash>
+      </entry>
+      <entry>
          <file>..\src\main.c</file>
          <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
       </entry>
       <entry>
-         <file>..\src\config\pic32mz_ef_sk\FreeRTOSConfig.h</file>
-         <hash>7257fc316dfd53a702073a4ac219315084fab1a9e09b7e18e1743539b6d38981</hash>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c</file>
+         <hash>b0e2349f8d150fcb569570d73cf8a80da4eee689039a9f291e8b3c36af6f97f4</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\croutine.c</file>
+         <hash>0ca8c178b698a6ad5ce3f6f1246ab287bfb5510f3c04e1d00e5cfb49c57fc66b</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\event_groups.c</file>
+         <hash>42ca0bc7afdfb48e9089dff2b4b047e1515a93e7fce031756af6c49b2212c215</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\FreeRTOS.h</file>
+         <hash>7e29c7d9c773561ec4d0125409036f102f1f15162e213d32568ddf3d8ceddfeb</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\croutine.h</file>
+         <hash>b7060be39f6c8d0ffd169806382eed5a411776f0d69b0fb3ade6b07e678303f9</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\deprecated_definitions.h</file>
-         <hash>35000a143464bbbd8df7c9a6f066a64598a24da5174a7be33972e62bfbd75f4d</hash>
+         <hash>81d325362fc67518de04d5070609e537d0757e4cc6d6332e8118b4f81a4fdce7</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\event_groups.h</file>
+         <hash>2399a780de0eefe95067f5b7744d5e213ad9c793fc6468a8535a8e604f85cbba</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\list.h</file>
+         <hash>0848dc9696a2d4d11bb6957fedb6ec5dfb1c2326dfb66af5ca848b1b32a86b66</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\message_buffer.h</file>
+         <hash>4883fce829d415b7d14d0567965cd97e41634339cd3a72a07b76baebedbc0a57</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
+         <hash>8cb02fee372e1cc1958022e054122d248c1c184cfc00eb3db6d0fbc0bfef87d1</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_syscall_numbers.h</file>
+         <hash>ae11f0a0ea07101af83b9fc387662703a188bc3dfd71784ee24e85cc2f518ce0</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>
+         <hash>d99486024fd44173ff23c14ee8561b6e0ce6ee41ad6d6a7e7b17ea97a5023e8b</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\portable.h</file>
+         <hash>d26267188226020346bd048c9dd0e767b91c7023e5ee0d5f9aa7c7c1864de180</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\projdefs.h</file>
+         <hash>3d37a1403a69a58a07e214f6a9759601cc0fbe53319c5b14e17f4de5fb8ec0b7</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\queue.h</file>
+         <hash>27b85dc3c610f83fee9208e0dd4d8dfa3168ea2259cbe1662e2f6a0ac55431f5</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\semphr.h</file>
+         <hash>89a46fcd718990d24f9fea16c681527eec502712ca2d1b0a4e8d6c205f7452e1</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\stack_macros.h</file>
+         <hash>d167d886d199615eeeca0acb935bf5c99b42c30a322273363ddc8dec03a58174</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\stream_buffer.h</file>
+         <hash>51da6d9a7cc2cf1504b4f1564e814f422efb9b688fc6e58946f41d0fe23d2d22</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\task.h</file>
+         <hash>0d71440d1d81d990fa79677c0836712a3e2655ff3ad75478f5a221e2f0583cf8</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\timers.h</file>
+         <hash>19e373d04e2f01f9f69a9d3017a75a46b4f7b6e8016742702b10e112786d6181</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\list.c</file>
+         <hash>55a947c8bd1eec01ebafcb46ccc96cd33090cbdcd3f0114b9ea6a61ebdd6ee7a</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\ISR_Support.h</file>
+         <hash>f035f03c56c0148bc0e3ddd5c7d0880d1aa041e6a83e2880e62e28d9ee23fdd1</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\port.c</file>
+         <hash>0fa39ccbd15a90bc02b1361e81020a97670cdfc453c33885ef2f4b10a1563418</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\port_asm.S</file>
+         <hash>ad8eee9bb49ea681a72d2323a73a78f946a8dbddf0a511d7a9c6d164345eafc5</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\portmacro.h</file>
+         <hash>3f2319cf683873b27043bee9521d9d49e7b1f5b6dbe41011ab62e7635db5306e</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MemMang\heap_1.c</file>
+         <hash>7155176186aff6591df2f5f82c3b3bfe8f94c96536b604dcdc4f54e0ad8eb6e9</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\queue.c</file>
+         <hash>a4c20318c20a5f49a34fc757092818eb1065b19f142394a04889aa40d67a5023</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\stream_buffer.c</file>
+         <hash>b825d6bccefea8a8c06b4a2022dede20af67f5bc2a2e4976947b376bc41613a7</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\timers.c</file>
+         <hash>3b936fac70fa25b959b53990cd15c20fb85956cdbe22af4249fde0a94590ff01</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>
