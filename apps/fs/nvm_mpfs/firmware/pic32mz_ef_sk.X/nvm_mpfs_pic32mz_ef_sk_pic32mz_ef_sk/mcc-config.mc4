@@ -1,0 +1,144 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+device: PIC32MZ2048EFH144
+deviceLibrary:
+  className: com.microchip.mcc.harmony.Harmony3Library
+groupModules: []
+modules:
+- BSP_PIC32MZ_EF_Starter_Kit
+- HarmonyCore
+- core
+- dfp
+- drv_memory
+- drv_memory_0
+- nvm
+- sys_fs
+generatedFileHashHistoryMap:
+- file: ..\src\app.c
+  hash: 632c78c323cb9f8c6359f20337440c08f8461eb4b0304552b6a3cfd5c4052620
+- file: ..\src\app.h
+  hash: 8e35d8509552a4d1d6e6f123ad75694cf784a707f7dac592ed33b55121aa8e28
+- file: ..\src\config\pic32mz_ef_sk\bsp\bsp.c
+  hash: 9359a3559e2ada22752465e4d372cd65f481e1875cd14b827c88a323e5ea36d0
+- file: ..\src\config\pic32mz_ef_sk\bsp\bsp.h
+  hash: 6f607e0ed88612c26922cd6429b575d942564638aab73b79563070b624d8ccbd
+- file: ..\src\config\pic32mz_ef_sk\configuration.h
+  hash: 2b8ff59d37346fded2c3c6aeb96d0f68daef7a76944d564a4d248b9582316416
+- file: ..\src\config\pic32mz_ef_sk\definitions.h
+  hash: 487814a78c94a4fd39a1534336f2bda8cf0fa3429e1d5a457a344c8b55634144
+- file: ..\src\config\pic32mz_ef_sk\device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ..\src\config\pic32mz_ef_sk\device_cache.h
+  hash: fd0e9c9a7fbeb01fb289eecda8b0f0b3cfe0b86da13bc26801f611faa3b9a74c
+- file: ..\src\config\pic32mz_ef_sk\driver\driver.h
+  hash: 042fdd289460dbddb8e805850af7e3ac9aea95468e37414959781ebc5b2f454d
+- file: ..\src\config\pic32mz_ef_sk\driver\driver_common.h
+  hash: 5217965f6720b4fdf717e99ce9df4f2c9fbd82bbbc9655847166d1eefa806fee
+- file: ..\src\config\pic32mz_ef_sk\driver\memory\drv_memory.h
+  hash: 614702f2ebbb2a6a2b1baf1c9f8472c94ea3588e370c507c9bf408b1d86702af
+- file: ..\src\config\pic32mz_ef_sk\driver\memory\drv_memory_definitions.h
+  hash: b8f10e5a04840558da99e20856d3f7394b280d5e399d72ee5ef1cf13b3ee48f2
+- file: ..\src\config\pic32mz_ef_sk\driver\memory\drv_memory_nvm.h
+  hash: aafbf98cdcd6fde28e160f311729c3bce2823a42c90ff56ee3bcf3e018800fc5
+- file: ..\src\config\pic32mz_ef_sk\driver\memory\src\drv_memory.c
+  hash: 1922248aa8310ad78b6ac1e65a01e87d9a3d3e8ed5a5bebfbd9b198d66ce81ec
+- file: ..\src\config\pic32mz_ef_sk\driver\memory\src\drv_memory_file_system.c
+  hash: ad02bcbc7e97a16a5e8b08c735b79e783435094db2e1803bb0cafa4a7ee7eb25
+- file: ..\src\config\pic32mz_ef_sk\driver\memory\src\drv_memory_file_system.h
+  hash: 25417962a1c2116c903c6b4061d496b3aaf075ea17b372ca28e1766f23bc9c56
+- file: ..\src\config\pic32mz_ef_sk\driver\memory\src\drv_memory_local.h
+  hash: 129258f301260bf3f612f02652c061c7df89379cc21950df0d02ba5f5ee1845d
+- file: ..\src\config\pic32mz_ef_sk\driver\memory\src\drv_memory_nvm.c
+  hash: 58243f9da95357beb459fd16a20c065fd919a4e5670e17b3a346e04b61a7b041
+- file: ..\src\config\pic32mz_ef_sk\exceptions.c
+  hash: 8c1843dacd6aec28ef12be3d763763a268e0facd02d4f1e7d67e21a8d73061d1
+- file: ..\src\config\pic32mz_ef_sk\initialization.c
+  hash: 6d5b0929487a0819b79dca90f937e760437586bfcc9018f2f8dd590102282f5e
+- file: ..\src\config\pic32mz_ef_sk\interrupts.c
+  hash: 7d07bce3d497bbad435f35f8df940c04dfd3996e4720b4852a21475f42a237b7
+- file: ..\src\config\pic32mz_ef_sk\interrupts.h
+  hash: bd51c3c5264a10459c01fabb79b440af80e049a39110c43f28566cb6a73fe3ed
+- file: ..\src\config\pic32mz_ef_sk\osal\osal.h
+  hash: 1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c
+- file: ..\src\config\pic32mz_ef_sk\osal\osal_definitions.h
+  hash: 5f0a2513a093b6d228e2b50646b204923a82047335a47f3d35a2938309ab6f37
+- file: ..\src\config\pic32mz_ef_sk\osal\osal_impl_basic.h
+  hash: 65e68edbc0320d0407399f65e6d06ff7e6d3d7697231cf1fe0a1fdf1d65f0463
+- file: ..\src\config\pic32mz_ef_sk\p32MZ2048EFH144.ld
+  hash: 11adbfaeda6e28c761f00e2e60d6e7295fd8f5deffcefba4808464abca0c2a5c
+- file: ..\src\config\pic32mz_ef_sk\peripheral\cache\plib_cache.c
+  hash: 500634fa5c5cb4efb91faa7a54e3ccbb26ad7ff6d188ff0e91cbaabc606cf054
+- file: ..\src\config\pic32mz_ef_sk\peripheral\cache\plib_cache.h
+  hash: da01fae7f39626c9f25c0c8f4f9a8cf25ed0c4b8dd6c0d4bae146210efe8da46
+- file: ..\src\config\pic32mz_ef_sk\peripheral\cache\plib_cache_local.h
+  hash: 91d5a1a9920a5aea939f16fe36e9346b60ba3a8577817f24c0e8198cba2e089d
+- file: ..\src\config\pic32mz_ef_sk\peripheral\cache\plib_cache_pic32mz.S
+  hash: 227a6c622b0100cceef847043fb5afdace49f27df33d00e61d413bc9da34932d
+- file: ..\src\config\pic32mz_ef_sk\peripheral\cache\plib_cache_pic32mz.h
+  hash: e401b896c670e8d0e1714eafc2b93a12b1fe6592783951e2353471bb4ced58e8
+- file: ..\src\config\pic32mz_ef_sk\peripheral\clk\plib_clk.c
+  hash: 36057f5e31540c00ee9ac91d3f0d65e4864385d89aceceb2a835634c42c3f51c
+- file: ..\src\config\pic32mz_ef_sk\peripheral\clk\plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ..\src\config\pic32mz_ef_sk\peripheral\evic\plib_evic.c
+  hash: 44f4a0d192393c9f119185d51edab80d4f32e072d2d0151bf2bcefc901f6bec4
+- file: ..\src\config\pic32mz_ef_sk\peripheral\evic\plib_evic.h
+  hash: 486ea1d5c05801c1d1d96f3d3d5c5af20a9794640d4ca54f98c28add9188665f
+- file: ..\src\config\pic32mz_ef_sk\peripheral\gpio\plib_gpio.c
+  hash: 564c53cbdd88fe7e0612e2a7722d77acc395dbe234ab07eb1e150b9b2c87078e
+- file: ..\src\config\pic32mz_ef_sk\peripheral\gpio\plib_gpio.h
+  hash: 108fc503975f63e53fb4ce73a77f7bd0ff77c1bca060b91a7ad75b74c1861488
+- file: ..\src\config\pic32mz_ef_sk\peripheral\nvm\plib_nvm.c
+  hash: a174d49747d3156f9d8dfd252b22920dfcea7fbded0866394d0f07f072c42688
+- file: ..\src\config\pic32mz_ef_sk\peripheral\nvm\plib_nvm.h
+  hash: d959b0b0f27d5580d2ab0e35b53fb3cc376424d73ed20a8602e688c9e4ea8aac
+- file: ..\src\config\pic32mz_ef_sk\stdio\xc32_monitor.c
+  hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
+- file: ..\src\config\pic32mz_ef_sk\sys_tasks.h
+  hash: 21f254f497a18a024cd00128d06c4776c2643f867a460c1ba9880a7dd41a8d56
+- file: ..\src\config\pic32mz_ef_sk\system\cache\sys_cache.c
+  hash: 53fd36c6040f1cd83a5a625dc5dbf3b9a1f337988e5c10b776da9235f7b7579e
+- file: ..\src\config\pic32mz_ef_sk\system\cache\sys_cache.h
+  hash: b4b3a4e7434759c9bbcd3c6a0ab97558eb2a007f083a4eb76dbedcb2e2c3d86b
+- file: ..\src\config\pic32mz_ef_sk\system\debug\sys_debug.h
+  hash: aa94da8f32cbcb40672145542d149d077ff8f4b25c08d47d53e3d206d1c6bb83
+- file: ..\src\config\pic32mz_ef_sk\system\fs\mpfs\mpfs.c
+  hash: 43e5fc12888209dbb072de4f51dfb2da44bb137ba93ffa09974f1418296296b4
+- file: ..\src\config\pic32mz_ef_sk\system\fs\mpfs\mpfs.h
+  hash: 5a5c03658aecea816f7717a1124d6c61bebe2f9a28d5f4f82475fa87ff788e2a
+- file: ..\src\config\pic32mz_ef_sk\system\fs\mpfs\mpfs_local.h
+  hash: f4fcfd70d542f897aa066978af66283e0bdb7bde46f4e69fdaec2702aa687bde
+- file: ..\src\config\pic32mz_ef_sk\system\fs\src\sys_fs.c
+  hash: 0099b48fcfccb8ed9301e2451f1053297a10768dca2a4e2064a22cf6ac6124a3
+- file: ..\src\config\pic32mz_ef_sk\system\fs\src\sys_fs_local.h
+  hash: 60ea0ca979ff50312ba6acdb8114e6455b0c692fd637f8bda30583150e8c4512
+- file: ..\src\config\pic32mz_ef_sk\system\fs\src\sys_fs_media_manager.c
+  hash: a0745d9c0719f56614a94ce4e69ad3ad89b15ee160e79c52c7d79d68f8311676
+- file: ..\src\config\pic32mz_ef_sk\system\fs\src\sys_fs_media_manager_local.h
+  hash: 5d471f0372ec41b3ef362ad533beede076e4e959274e57221ed229b996d7231e
+- file: ..\src\config\pic32mz_ef_sk\system\fs\sys_fs.h
+  hash: b754da6f6ef27246556438f115b306ad6637328595e165168a62174e676f612f
+- file: ..\src\config\pic32mz_ef_sk\system\fs\sys_fs_media_manager.h
+  hash: 2f7c76d5a40a41594e86a831470c67d7aeec5b6e540fb967518ce095fe6da271
+- file: ..\src\config\pic32mz_ef_sk\system\int\src\sys_int.c
+  hash: 30ac5e334ca90204f545f1ab769ae26f421b910b3fb3be99354b364febceee64
+- file: ..\src\config\pic32mz_ef_sk\system\int\sys_int.h
+  hash: 2c878ab7ff41ae56b5c0c3c94929ad66eb87b8660bf9a439177d049e8ad8f8c8
+- file: ..\src\config\pic32mz_ef_sk\system\int\sys_int_mapping.h
+  hash: a2dcf05575becc98aa212af1d220eda07487bd645d82c4d7a980aa3a22384cf3
+- file: ..\src\config\pic32mz_ef_sk\system\system.h
+  hash: 2b75f8e370e5cb2c54f70da7351ee149f0d5a7673e700f39b373099716b31b55
+- file: ..\src\config\pic32mz_ef_sk\system\system_common.h
+  hash: c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984
+- file: ..\src\config\pic32mz_ef_sk\system\system_media.h
+  hash: e61ba67015cfba6a7425d077cd2c633ba9989218bbe585078efe2face729401f
+- file: ..\src\config\pic32mz_ef_sk\system\system_module.h
+  hash: 96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9
+- file: ..\src\config\pic32mz_ef_sk\tasks.c
+  hash: 68a3350dc4994ba349bf0450904b7b0e46c6af5df4c17dacbf1f1ac2bf8da87c
+- file: ..\src\config\pic32mz_ef_sk\toolchain_specifics.h
+  hash: fd2fc7bbe60706409cc0c0a525825c0194f6f71adc0a89e6310041f06dc2f645
+- file: ..\src\config\pic32mz_ef_sk\user.h
+  hash: 451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995
+- file: ..\src\main.c
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
