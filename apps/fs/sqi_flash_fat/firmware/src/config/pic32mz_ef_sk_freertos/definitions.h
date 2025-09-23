@@ -14,7 +14,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -59,8 +59,8 @@
 #include "peripheral/gpio/plib_gpio.h"
 #include "peripheral/cache/plib_cache.h"
 #include "peripheral/evic/plib_evic.h"
-#include "bsp/bsp.h"
 #include "driver/memory/drv_memory.h"
+#include "bsp/bsp.h"
 #include "peripheral/sqi/plib_sqi1.h"
 #include "FreeRTOS.h"
 #include "task.h"
