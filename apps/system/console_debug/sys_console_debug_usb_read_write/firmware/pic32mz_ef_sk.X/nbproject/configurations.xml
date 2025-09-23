@@ -119,9 +119,28 @@
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk" displayName="sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk" projectFiles="true">
+        <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/BSP_PIC32MZ_EF_Starter_Kit.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/HarmonyCore.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/core.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/core_timer.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/dfp.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/drv_usbhs_v1.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/sys_console.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/sys_console_0.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/sys_console_1.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/sys_debug.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/sys_time.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/usb_device.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/usb_device_cdc.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/usb_device_cdc_0.yml</itemPath>
+          <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk_pic32mz_ef_sk/components/usb_device_cdc_1.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mz_ef_sk/harmony-manifest-success.yml</itemPath>
-      <itemPath>sys_console_debug_usb_read_write_pic32mz_ef_sk.mc3</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
@@ -213,7 +232,7 @@
         <targetPluginBoard/>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

@@ -14,7 +14,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -55,9 +55,9 @@
 #include "usb/usb_device.h"
 #include "bsp/bsp.h"
 #include "system/time/sys_time.h"
+#include "driver/usb/usbhs/drv_usbhs.h"
 #include "usb/usb_device_cdc.h"
 #include "usb/usb_cdc.h"
-#include "driver/usb/usbhs/drv_usbhs.h"
 #include "peripheral/coretimer/plib_coretimer.h"
 #include "system/console/sys_console.h"
 #include "system/console/src/sys_console_usb_cdc_definitions.h"

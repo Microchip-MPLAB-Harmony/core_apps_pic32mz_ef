@@ -1,0 +1,429 @@
+generatedFiles:
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/console/src/sys_console_usb_cdc.h
+  projectFolder: config/pic32mz_ef_sk/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/console/src/sys_console_usb_cdc_definitions.h
+  projectFolder: config/pic32mz_ef_sk/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/console/src/sys_console_usb_cdc.c
+  projectFolder: config/pic32mz_ef_sk/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/toolchain_specifics.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/definitions.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/initialization.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/interrupts.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/interrupts.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/exceptions.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/p32MZ2048EFH144.ld
+  projectFolder: config/pic32mz_ef_sk
+  type: Linker Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/stdio/xc32_monitor.c
+  projectFolder: config/pic32mz_ef_sk/stdio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/clk/plib_clk.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/clk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/clk/plib_clk.c
+  projectFolder: config/pic32mz_ef_sk/peripheral/clk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/gpio/plib_gpio.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/gpio
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/gpio/plib_gpio.c
+  projectFolder: config/pic32mz_ef_sk/peripheral/gpio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/evic/plib_evic.c
+  projectFolder: config/pic32mz_ef_sk/peripheral/evic
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/evic/plib_evic.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/evic
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb_device_init_data.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_device.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_common.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_chapter_9.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/src/usb_device_local.h
+  projectFolder: config/pic32mz_ef_sk/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/src/usb_device_mapping.h
+  projectFolder: config/pic32mz_ef_sk/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/src/usb_device_function_driver.h
+  projectFolder: config/pic32mz_ef_sk/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/src/usb_device.c
+  projectFolder: config/pic32mz_ef_sk/usb/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/src/usb_external_dependencies.h
+  projectFolder: config/pic32mz_ef_sk/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/bsp/bsp.c
+  projectFolder: config/pic32mz_ef_sk/bsp
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/bsp/bsp.h
+  projectFolder: config/pic32mz_ef_sk/bsp
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/debug/src/sys_debug_local.h
+  projectFolder: config/pic32mz_ef_sk/system/debug
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/debug/src/sys_debug.c
+  projectFolder: config/pic32mz_ef_sk/system/debug
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/time/sys_time.h
+  projectFolder: config/pic32mz_ef_sk/system/time
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/time/sys_time_definitions.h
+  projectFolder: config/pic32mz_ef_sk/system/time
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/time/src/sys_time.c
+  projectFolder: config/pic32mz_ef_sk/system/time
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/time/src/sys_time_local.h
+  projectFolder: config/pic32mz_ef_sk/system/time
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/drv_usb.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/drv_usb_external_dependencies.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/drv_usbhs.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/drv_usbhs_variant_mapping.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/drv_usbhs_local.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_host_client_driver.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_host_hub_interface.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_host.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_hub.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/drv_usbhs.c
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/drv_usbhs_device.c
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/plib_usbhs.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/plib_usbhs_header.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/usbhs_registers.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_registers.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_ClockResetControl_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_ClockResetControl_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_EndpointFIFO_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_EndpointFIFO_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_EndpointOperations_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_EndpointOperations_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_EP0Status_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_EP0Status_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_HighSpeedSupport_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_HighSpeedSupport_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_Interrupts_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_Interrupts_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_ModuleControl_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_ModuleControl_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_RxEPStatus_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_RxEPStatus_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_SoftReset_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_SoftReset_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_TxEPStatus_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_TxEPStatus_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_USBIDControl_Default.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/usb/usbhs/src/templates/usbhs_USBIDControl_Unsupported.h
+  projectFolder: config/pic32mz_ef_sk/driver/usb/usbhs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/coretimer/plib_coretimer.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/coretimer
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/coretimer/plib_coretimer.c
+  projectFolder: config/pic32mz_ef_sk/peripheral/coretimer
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/device.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/console/sys_console.h
+  projectFolder: config/pic32mz_ef_sk/system/console
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/console/src/sys_console.c
+  projectFolder: config/pic32mz_ef_sk/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/console/src/sys_console_local.h
+  projectFolder: config/pic32mz_ef_sk/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_device_cdc.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/usb_cdc.h
+  projectFolder: config/pic32mz_ef_sk/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/src/usb_device_cdc.c
+  projectFolder: config/pic32mz_ef_sk/usb/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/src/usb_device_cdc_acm.c
+  projectFolder: config/pic32mz_ef_sk/usb/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/usb/src/usb_device_cdc_local.h
+  projectFolder: config/pic32mz_ef_sk/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/driver.h
+  projectFolder: config/pic32mz_ef_sk/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/driver/driver_common.h
+  projectFolder: config/pic32mz_ef_sk/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/system.h
+  projectFolder: config/pic32mz_ef_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/system_common.h
+  projectFolder: config/pic32mz_ef_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/system_module.h
+  projectFolder: config/pic32mz_ef_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/int/sys_int.h
+  projectFolder: config/pic32mz_ef_sk/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/int/sys_int_mapping.h
+  projectFolder: config/pic32mz_ef_sk/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/int/src/sys_int.c
+  projectFolder: config/pic32mz_ef_sk/system/int
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/osal/osal.h
+  projectFolder: config/pic32mz_ef_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/osal/osal_definitions.h
+  projectFolder: config/pic32mz_ef_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/osal/osal_impl_basic.h
+  projectFolder: config/pic32mz_ef_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/user.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/configuration.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/sys_tasks.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/tasks.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mz_ef_sk/system/debug/sys_debug.h
+  projectFolder: config/pic32mz_ef_sk/system/debug
+  type: Header Files
+generatedSettings:
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-micro-compressed-code
+  value: 'false'
+- category: C32CPP
+  key: generate-micro-compressed-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mz_ef_sk;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mz_ef_sk;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+removedFiles: [
+  ]
