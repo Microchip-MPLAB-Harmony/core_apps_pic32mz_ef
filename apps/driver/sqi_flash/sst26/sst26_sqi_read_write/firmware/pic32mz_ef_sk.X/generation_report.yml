@@ -1,0 +1,197 @@
+generatedFiles:
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/toolchain_specifics.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/definitions.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/initialization.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/interrupts.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/interrupts.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/exceptions.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/p32MZ2048EFH144.ld
+  projectFolder: config/pic32mz_ef_sk
+  type: Linker Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/stdio/xc32_monitor.c
+  projectFolder: config/pic32mz_ef_sk/stdio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/clk/plib_clk.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/clk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/clk/plib_clk.c
+  projectFolder: config/pic32mz_ef_sk/peripheral/clk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/gpio/plib_gpio.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/gpio
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/gpio/plib_gpio.c
+  projectFolder: config/pic32mz_ef_sk/peripheral/gpio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/evic/plib_evic.c
+  projectFolder: config/pic32mz_ef_sk/peripheral/evic
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/evic/plib_evic.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/evic
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/bsp/bsp.c
+  projectFolder: config/pic32mz_ef_sk/bsp
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/bsp/bsp.h
+  projectFolder: config/pic32mz_ef_sk/bsp
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/device.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/sqi/plib_sqi_common.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/sqi
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/sqi/plib_sqi1.h
+  projectFolder: config/pic32mz_ef_sk/peripheral/sqi
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/peripheral/sqi/plib_sqi1.c
+  projectFolder: config/pic32mz_ef_sk/peripheral/sqi
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/driver/sst26/drv_sst26.h
+  projectFolder: config/pic32mz_ef_sk/driver/sst26
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/driver/sst26/src/drv_sst26_local.h
+  projectFolder: config/pic32mz_ef_sk/driver/sst26
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/driver/sst26/drv_sst26_definitions.h
+  projectFolder: config/pic32mz_ef_sk/driver/sst26
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/driver/sst26/src/drv_sst26.c
+  projectFolder: config/pic32mz_ef_sk/driver/sst26
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/driver/driver.h
+  projectFolder: config/pic32mz_ef_sk/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/driver/driver_common.h
+  projectFolder: config/pic32mz_ef_sk/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/system/system.h
+  projectFolder: config/pic32mz_ef_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/system/system_common.h
+  projectFolder: config/pic32mz_ef_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/system/system_module.h
+  projectFolder: config/pic32mz_ef_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/system/int/sys_int.h
+  projectFolder: config/pic32mz_ef_sk/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/system/int/sys_int_mapping.h
+  projectFolder: config/pic32mz_ef_sk/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/system/int/src/sys_int.c
+  projectFolder: config/pic32mz_ef_sk/system/int
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/osal/osal.h
+  projectFolder: config/pic32mz_ef_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/osal/osal_definitions.h
+  projectFolder: config/pic32mz_ef_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/osal/osal_impl_basic.h
+  projectFolder: config/pic32mz_ef_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/user.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/configuration.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/sys_tasks.h
+  projectFolder: config/pic32mz_ef_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/tasks.c
+  projectFolder: config/pic32mz_ef_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mz_ef/apps/driver/sqi_flash/sst26/sst26_sqi_read_write/firmware/src/config/pic32mz_ef_sk/system/debug/sys_debug.h
+  projectFolder: config/pic32mz_ef_sk/system/debug
+  type: Header Files
+generatedSettings:
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-micro-compressed-code
+  value: 'false'
+- category: C32CPP
+  key: generate-micro-compressed-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mz_ef_sk;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mz_ef_sk;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+removedFiles: [
+  ]
