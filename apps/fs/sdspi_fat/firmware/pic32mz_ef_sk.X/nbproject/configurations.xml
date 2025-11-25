@@ -15,6 +15,7 @@
               <itemPath>../src/config/pic32mz_ef_sk/driver/sdspi/src/drv_sdspi_local.h</itemPath>
               <itemPath>../src/config/pic32mz_ef_sk/driver/sdspi/src/drv_sdspi_plib_interface.h</itemPath>
               <itemPath>../src/config/pic32mz_ef_sk/driver/sdspi/drv_sdspi.h</itemPath>
+              <itemPath>../src/config/pic32mz_ef_sk/driver/sdspi/src/drv_sdspi_file_system.h</itemPath>
             </logicalFolder>
             <itemPath>../src/config/pic32mz_ef_sk/driver/driver.h</itemPath>
             <itemPath>../src/config/pic32mz_ef_sk/driver/driver_common.h</itemPath>
@@ -129,7 +130,6 @@
         <itemPath>sdspi_fat_pic32mz_ef_sk_pic32mz_ef_sk/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mz_ef_sk/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

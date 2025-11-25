@@ -55,6 +55,7 @@
 #include "usb/usb_device.h"
 #include "bsp/bsp.h"
 #include "system/time/sys_time.h"
+#include "driver/usb/usbhs/drv_usbhs.h"
 #include "usb/usb_device_cdc.h"
 #include "usb/usb_cdc.h"
 #include "peripheral/coretimer/plib_coretimer.h"

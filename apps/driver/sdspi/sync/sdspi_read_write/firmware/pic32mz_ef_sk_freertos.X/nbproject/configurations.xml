@@ -139,7 +139,6 @@
         <itemPath>sync_sdspi_read_write_pic32mz_ef_sk_freertos_pic32mz_ef_sk_freertos/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mz_ef_sk_freertos/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -327,7 +326,7 @@
         <property key="extra-include-directories-for-assembler"
                   value="../src/config/pic32mz_ef_sk_freertos;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
         <property key="extra-include-directories-for-preprocessor"
-                  value="../src/config/pic32mz_ef_sk_freertos;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mz_ef_sk_freertos;"/>
         <property key="false-conditionals" value="false"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>

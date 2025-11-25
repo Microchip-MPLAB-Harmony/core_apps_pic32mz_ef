@@ -16,6 +16,7 @@
               <itemPath>../src/config/pic32mz_ef_sk_freertos/driver/memory/drv_memory.h</itemPath>
               <itemPath>../src/config/pic32mz_ef_sk_freertos/driver/memory/drv_memory_definitions.h</itemPath>
               <itemPath>../src/config/pic32mz_ef_sk_freertos/driver/memory/src/drv_memory_local.h</itemPath>
+              <itemPath>../src/config/pic32mz_ef_sk_freertos/driver/memory/src/drv_memory_file_system.h</itemPath>
             </logicalFolder>
             <logicalFolder name="f2" displayName="sst26" projectFiles="true">
               <itemPath>../src/config/pic32mz_ef_sk_freertos/driver/sst26/drv_sst26.h</itemPath>
@@ -156,7 +157,6 @@
         <itemPath>sqi_flash_fat_pic32mz_ef_sk_freertos_pic32mz_ef_sk_freertos/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mz_ef_sk_freertos/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -361,7 +361,7 @@
         <property key="extra-include-directories-for-assembler"
                   value="../src/config/pic32mz_ef_sk_freertos;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
         <property key="extra-include-directories-for-preprocessor"
-                  value="../src/config/pic32mz_ef_sk_freertos;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mz_ef_sk_freertos;"/>
         <property key="false-conditionals" value="false"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>

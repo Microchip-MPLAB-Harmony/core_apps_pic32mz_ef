@@ -25,7 +25,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32mz_ef_sk\configuration.h
   hash: 2b8ff59d37346fded2c3c6aeb96d0f68daef7a76944d564a4d248b9582316416
 - file: ..\src\config\pic32mz_ef_sk\definitions.h
-  hash: 487814a78c94a4fd39a1534336f2bda8cf0fa3429e1d5a457a344c8b55634144
+  hash: 29e944d5c539de8b53d645f77c6ea8c734a85a722744b4f36dfb05e884ebfc23
 - file: ..\src\config\pic32mz_ef_sk\device.h
   hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
 - file: ..\src\config\pic32mz_ef_sk\device_cache.h

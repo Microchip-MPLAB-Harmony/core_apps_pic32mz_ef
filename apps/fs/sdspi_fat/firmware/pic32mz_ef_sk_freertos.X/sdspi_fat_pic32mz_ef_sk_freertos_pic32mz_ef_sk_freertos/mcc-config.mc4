@@ -30,7 +30,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32mz_ef_sk_freertos\configuration.h
   hash: 04a40999aab09b8b15c092d6eff892925c7a6a2d2e21dc9dcab16b118076e363
 - file: ..\src\config\pic32mz_ef_sk_freertos\definitions.h
-  hash: 88e14794a4fd1bea49345ff95ec6b2ad3c7e1c658b157c62882238efa0fd7025
+  hash: 53d280eaf64c849b087240e20feb9dba4fd5a7a8cd37751921db1a99a73172a3
 - file: ..\src\config\pic32mz_ef_sk_freertos\device.h
   hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
 - file: ..\src\config\pic32mz_ef_sk_freertos\device_cache.h
