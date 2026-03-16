@@ -1,0 +1,15 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+spaHostVersion: 1.0.0
+device: PIC32MZ2048EFH144
+deviceLibrary:
+  className: null
+groupModules: []
+modules:
+- BSP_PIC32MZ_EF_Starter_Kit
+- HarmonyCore
+- core
+- dfp
+- lib_emulated_eeprom
+- nvm
+generatedFileHashHistoryMap: []
