@@ -265,9 +265,6 @@ void APP_Tasks ( void )
             appTestData.var_6 = 0xF497;
             
             EMU_EEPROM_WRITE(var_6, &appTestData.var_6); 
-
-            /* Commit any data that may be in EEPROM Emulator library's cache to physical memory */
-            //EMU_EEPROM_PageBufferCommit();
             
             appData.state = APP_STATE_READ_DATA;
             
