@@ -111,17 +111,13 @@ typedef struct
     /** Buffer to hold the currently cached page. */
     EEPROM_PAGE cache;
 
-    /** Indicates if the cache contains valid data. */
-    bool cache_active;
-
     /** Indicates library status */
     EMU_EEPROM_STATUS status;
 
     /* Mutex to synchronize multiple simultaneous access */
     OSAL_MUTEX_DECLARE (EmulatedEEPROMAccessLock);
 
-}EEPROM_MODULE CACHE_ALIGN;
-
+}EEPROM_MODULE;
 
 /** @} */
 

@@ -199,39 +199,6 @@ EMU_EEPROM_STATUS EMU_EEPROM_ParametersGet( EMU_EEPROM_PARAMETERS *const paramet
 
 // *****************************************************************************
 /* Function:
-    EMU_EEPROM_STATUS EMU_EEPROM_PageBufferCommit(void)
-
-  Summary:
-    Commits any cached data to physical non-volatile memory
-
-  Description:
-    Commits the internal SRAM caches to physical non-volatile memory, to ensure
-    that any outstanding cached data is preserved. This function should be called
-    prior to a system reset or shutdown to prevent data loss.
-
-  Precondition:
-    Function EMU_EEPROM_Initialize should have been called
-    before calling this function.
-
-  Parameters:
-    None
-
-  Returns:
-    EMU_EEPROM_STATUS - Enum of type EMU_EEPROM_STATUS. Status code indicating
-    the status of the operation.
-
-  Example:
-    <code>
-    EMU_EEPROM_PageBufferCommit();
-    </code>
-
-  Remarks:
-    None
-*/
-EMU_EEPROM_STATUS EMU_EEPROM_PageBufferCommit(void);
-
-// *****************************************************************************
-/* Function:
     EMU_EEPROM_STATUS EMU_EEPROM_PageWrite(
         const uint8_t logical_page,
         const uint8_t *const data)
