@@ -3,6 +3,31 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 driver and system service application examples for PIC32MZ EF family v3.7.0
+
+### Development kit and demo application support
+
+Following table provides number of driver and system service examples available for different development kits.
+
+| Development Kits  | MPLAB X applications |
+|:-----------------:|:-------------------:|
+| [PIC32MZ Embedded Connectivity with FPU (EF) Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/dm320007) | 24 |
+
+### New Features
+
+- Added demo application for eeprom_emulator
+
+### Known Issues
+
+- None
+
+### Development Tools
+
+- [MPLAB® X IDE 6.30](https://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® X IDE plug-ins:
+  - MPLAB® Code Configurator (MCC) 5.6.4 or higher
+- [MPLAB® XC32 C/C++ Compiler 5.10](https://www.microchip.com/mplab/compilers) or higher
+
 ## Harmony 3 driver and system service application examples for PIC32MZ EF family v3.6.1
 
 ### Development kit and demo application support
